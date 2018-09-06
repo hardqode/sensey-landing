@@ -1,0 +1,325 @@
+.first-opportunity-row {
+  padding-top: 64px;
+  .first-opportunity {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    .img-block {
+      width: 64px;
+      height: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 12px;
+      svg, img {
+        max-width: 100%;
+      }
+    }
+    .text {
+      line-height: 24px;
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.main-opportunities-row {
+  padding-top: 103px;
+  @media(max-width: 991px) {
+    padding-top: 35px;
+  }
+  .subheader {
+    margin-bottom: 56px;
+  }
+  .main-opportunities-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .img-block {
+      width: 166px;
+      height: 120px;
+      display: flex;
+      margin-bottom: 16px;
+      img, svg {
+        max-width: 100%;
+        margin: auto;
+      }
+    }
+    .main-opportunities-item-title {
+      width: 100%;
+      font-size: 22px;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .main-opportunities-item-text {
+      line-height: 21px;
+      font-size: 16px;
+      text-align: center;
+    }
+
+  }
+}
+
+.banks-working-with {
+  padding-top: 160px;
+  padding-bottom: 89px;
+  @media (max-width: 991px) {
+    padding-bottom: 40px;
+  }
+}
+
+.block-calculator {
+  padding-top: 178px;
+  @media(max-width: 991px) {
+    padding-top: 35px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .subheader {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .empty-block {
+    width: 100%;
+    height: 640px;
+    background: #EBEBEB;
+  }
+}
+
+.how-it-works {
+  padding-top: 160px;
+  padding-bottom: 126px;
+  @media(max-width: 991px) {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  .subheader {
+    margin-bottom: 72px;
+  }
+  .how-it-works-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @media(max-width: 991px) {
+      margin-bottom: 24px;
+    }
+    .img-block {
+      width: 166px;
+      height: 120px;
+      display: flex;
+      margin-bottom: 16px;
+      svg, img {
+        margin: auto;
+        max-width: 100%;
+      }
+      position: relative;
+      .step-block {
+        position: absolute;
+        width: 32px;
+        padding-top: 3px;
+        height: 32px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $blue;
+        color: white;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%) translateX(-50%);
+      }
+    }
+
+    .how-it-works-title {
+      font-size: 22px;
+      text-align: center;
+      line-height: 30px;
+      margin-bottom: 4px;
+      width: 100%;
+      font-weight: bold;
+    }
+
+    .how-it-works-text {
+      font-size: 16px;
+      text-align: center;
+      line-height: 22px;
+
+    }
+
+  }
+}
+
+.blue-line-section {
+  background-color: $blue;
+  .blue-line-item {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    @media(max-width: 991px) {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    position: relative;
+    .back-icon {
+      position: absolute;
+      left: 40px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      opacity: .4;
+    }
+    .text-block {
+      height: 100px;
+      .val {
+        line-height: 76px;
+        font-size: 72px;
+        margin-bottom: 0;
+        font-weight: bold;
+        color: white;
+      }
+      .description {
+        color: white;
+        line-height: 24px;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: -15px;
+      }
+    }
+  }
+}
+
+.slider-row {
+  padding-top: 160px;
+  .slider-nav {
+    padding-top: 56px;
+    .slider-nav__btn {
+      opacity: .2;
+      transition: all .3s;
+      background: transparent;
+      border: 0;
+      &:hover {
+        opacity: .9;
+      }
+    }
+  }
+  .owl-carousel {
+    .item {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      p {
+        width: 100%;
+      }
+      .text {
+        font-size: 18px;
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 32px;
+        color: $black;
+      }
+      .avatar {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        border-radius: 100%;
+        margin-bottom: 8px;
+      }
+      .name {
+        font-weight: bold;
+        color: $black;
+        line-height: 24px;
+        font-size: 18px;
+        margin-bottom: 2px;
+      }
+      .city {
+        color: $black;
+        opacity: .45;
+        line-height: 22px;
+        font-size: 16px;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+}
+
+.improve-chances {
+  h1{
+    text-align: center;
+
+  }
+  padding-top: 160px;
+  padding-bottom: 120px;
+  @media(max-width: 991px){
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .subheader {
+    text-align: center;
+    margin-bottom: 73px;
+    @media(max-width: 991px) {
+      margin-bottom: 40px;
+    }
+  }
+  .girl-img-block {
+    img {
+      max-width: 100%;
+    }
+  }
+  .text-block {
+    .title {
+      font-size: 38px;
+      line-height: 43px;
+      font-weight: bold;
+      margin-bottom: 31px;
+      @media(max-width:991px){
+        font-size: 30px;
+      }
+    }
+    .tick-block{
+      img{
+        margin-right: 12px;
+      }
+      font-size: 20px;
+      line-height: 27px;
+      color: $black;
+      &:last-of-type{
+        margin-bottom: 32px;
+      }
+    }
+    .stat-block{
+      display: flex;
+      flex-wrap: wrap;
+      .stat-block-item{
+        width: 196px;
+        margin-right: 35px;
+        margin-bottom: 35px;
+        @media(min-width: 992px){
+          margin-bottom: 48px;
+        }
+        .val{
+          line-height: 59px;
+          font-size: 56px;
+          color: $blue;
+        }
+        .description{
+          color: $blue;
+          margin-bottom: 4px;
+          margin-top: -20px;
+          line-height: 24px;
+          font-size: 18px;
+        }
+        .secondary{
+          line-height: 22px;
+          font-size: 16px;
+          color: $black;
+          opacity: 0.45;
+        }
+      }
+    }
+  }
+}

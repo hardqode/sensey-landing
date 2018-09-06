@@ -1,0 +1,18 @@
+.msk-creeping-line-container {
+    display: flex;
+    overflow: hidden; }
+.msk-creeping-line-container .msk-creeping-line-logos {
+    white-space: nowrap;
+    animation: msk-creepingLine linear 40s;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center; }
+.msk-creeping-line-container .msk-creeping-line-logos img {
+    margin-right: 10px;
+    margin-left: 10px; }
+
+@keyframes msk-creepingLine {
+    0% {
+        transform: translateX(0%); }
+    100% {
+        transform: translate(-100%); } }

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Circe";
+  src: url('../assets/fonts/circe/circe-regular.ttf') format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Circe";
+  src: url('../assets/fonts/circe/circe-bold.ttf') format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+.h1 {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 62px;
+  font-size: 56px;
+  color: $black;
+  margin-bottom: 24px;
+  @media (max-width: 991px) {
+    font-size: 33px;
+    line-height: 40px;
+  }
+}
+
+.subheader {
+  line-height: 27px;
+  font-size: 20px;
+}
+
+a{
+  &:hover{
+    text-decoration: none;
+  }
+}

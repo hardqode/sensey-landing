@@ -1,0 +1,40 @@
+.promo-section{
+  background-image: url("../assets/images/bg-slide.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  .container{
+    position: relative;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media(min-width: 992px){
+      padding-top: 135px;
+      padding-bottom: 135px;
+    }
+    .girl-image{
+      width: 656px;
+      display: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 14px;
+      margin: auto;
+      z-index: 2;
+    }
+    @media(min-width: 991px){
+      .girl-image{
+        display: block;
+      }
+    }
+  }
+  .h1{
+    margin-bottom: 24px;
+    z-index: 5;
+    position: relative;
+    @media(min-width:992px){
+      margin-bottom: 48px;
+    }
+  }
+}

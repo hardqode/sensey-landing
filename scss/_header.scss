@@ -1,0 +1,88 @@
+header{
+  background: white;
+  @media(max-width:991px){
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  @media(min-width:992px){
+    height: 104px;
+  }
+  .container,.row{
+    height: 100%;
+  }
+  .row{
+    align-items: center;
+  }
+  .logo{
+    @media(max-width:991px){
+      margin-bottom: 16px;
+    }
+  }
+  .logo-description{
+    max-width: 144px;
+    line-height: 15px;
+    font-size: 14px;
+    color: $gray;
+    margin-bottom: 0;
+    margin-right: 66px;
+    @media(max-width:991px){
+      margin-bottom: 16px;
+    }
+  }
+  .header-opportunity-block{
+    display: flex;
+    align-items: center;
+    @media(max-width:991px){
+      margin-bottom: 16px;
+    }
+    img{
+      margin-right: 10px;
+    }
+    p{
+      line-height: 18px;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+
+  .login-block{
+    display: flex;
+    flex-wrap: wrap;
+    @media(min-width: 992px){
+      flex-direction: row-reverse;
+    }
+    .phone{
+      font-weight: bold;
+      line-height: 21px;
+      font-size: 24px;
+      color: $blue;
+      margin-bottom: 8px;
+    }
+    .auth-links{
+      display: flex;
+      @media(min-width: 992px){
+        justify-content: flex-end;
+      }
+      width: 100%;
+      a{
+        line-height: 17px;
+        font-size: 14px;
+        color: $black;
+        &:hover{
+          color: $blue;
+        }
+        &:not(:last-of-type){
+          padding-right: 20px;
+          position: relative;
+          &:after{
+            position: absolute;
+            content: '•';
+            color: $gray;
+            bottom: -2px;
+            right:9px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+body{
+  font-family: 'Circe',sans-serif;
+  background: white;
+  *{
+    &:active{
+      outline: none;
+    }
+    outline: none;
+  }
+}
+.container{
+  @media (min-width:1200px) {
+    max-width: 1170px;
+  }
+}
+
+$black: #2B2B2B;
+$blue:#8CAAF3;
+$gray:#777776;

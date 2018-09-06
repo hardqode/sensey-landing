@@ -1,0 +1,19 @@
+button{
+  &:focus{
+    outline: none;
+  }
+  cursor: pointer;
+}
+
+.btn-blue{
+  font-size: 20px;
+  color: white;
+  line-height: 22px;
+  padding: 16px 40px 16px ;
+  background: $blue;
+  border: 0;
+  border-radius: 28px;
+  &:hover{
+    background: darken($blue,5);
+  }
+}
